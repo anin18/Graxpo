@@ -3,21 +3,16 @@
 html {
     font-size:14px;
 }
-
-body {
-    
-/*
-    font-family: 'Leckerli One', cursive;
-
-    font-family: 'Open Sans', sans-serif;*/
-
-    font-family: 'Roboto', sans-serif;
-
-
-}
-
 img {
     max-width:100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+     font-family: 'Roboto', sans-serif;
 }
 .hot {
      color:#E84C3D !important;
@@ -31,12 +26,47 @@ img {
 .light-p {
     color:#81868E !important;
 }
-
-
+.very-light-p {
+    color:#898989;
+}
+.line:after {
+    content: '';
+    display: block;
+    width:46px;
+    height:3px;
+    margin:1rem 0;
+    background-color:#898989;
+   
+}
+.actions .line:after {
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%);
+    
+    
+}
+.line-white:after {
+    content: '';
+    display: block;
+    width:46px;
+    height:3px;
+    margin:1rem 0;
+    background-color:#fff;
+}
+.line-light-grey:after {
+    content: '';
+    display: block;
+    width:46px;
+    height:3px;
+    margin:1rem 0;
+    background-color:#EBEBEB;
+    
+}
 /*HEADER*/
 
 header .navbar-brand {
-    font-family: 'Leckerli One';
+    font-family: 'Leckerli One', cursive;
     font-size: 2rem; 
 }
 
@@ -67,9 +97,6 @@ header li {
     transform: translate(-50%);
     bottom:5%;
 }
-.lead-section .mouse-item p {
-     font-family: 'Open Sans';
-}
 
 /*ABOUT SECTION*/
 
@@ -79,4 +106,42 @@ header li {
 }
 .about button:hover {
     background-color: red !important;
+}
+
+/*ACTIONS SECTION*/
+.actions article {
+    border: 3px solid #EBEBEB;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    padding:20px;
+}
+.actions .actions-icons {
+    margin-right: 20px;
+}
+
+.actions .actions-icons a {
+    text-decoration: none;
+    color:#fff;
+    width: 80px;
+    height:80px;
+    font-size: 35px;
+    line-height: 80px;
+    background: #E84C3D;
+    border-radius: 50%;
+}
+.actions article:hover {
+    background-color: #E84C3D;
+    border:3px solid #E84C3D;
+}
+.actions article:hover .actions-icons a{
+    color:#E84C3D;
+    background-color: #fff;
+}
+.actions article:hover aside p,
+.actions article:hover aside h6 {
+    color:white !important;
+  
+}
+ .actions article:hover .line-light-grey:after{
+    background-color: white;
 }
