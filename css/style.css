@@ -1,3 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:300,400|Roboto:300,400,700');
+
+html {
+    font-size:14px;
+}
+
+body {
+    
+/*
+    font-family: 'Leckerli One', cursive;
+
+    font-family: 'Open Sans', sans-serif;*/
+
+    font-family: 'Roboto', sans-serif;
 
 
+}
 
+img {
+    max-width:100%;
+}
+.hot {
+     color:#E84C3D !important;
+}
+.dark {
+     color:#333B46 !important;
+}
+.light-p {
+    color:#81868E !important;
+}
+/*HEADER*/
+
+header .navbar-brand {
+    font-family: 'Leckerli One';
+    font-size: 2rem; 
+}
+
+header .nav-item .nav-link:hover{
+    color:#000 !important;
+}
+header .active .nav-link {
+    color:#000 !important;
+
+}
+header li {
+     border-bottom: 1px solid #333B46 !important;
+     
+}
+
+/*LEAD-SECTION*/
+.lead-section {
+    padding: 200px 0  !important;
+}
+.lead-section h5{
+    margin-bottom: 150px;
+}
+.lead-section p{
+    font-family: 'Open Sans';
+}
+.lead-section .mouse-item {
+    left:50%;
+    transform: translate(-50%);
+    bottom:5%;
+}
+.lead-section .mouse-item p {
+     font-family: 'Open Sans';
+}
