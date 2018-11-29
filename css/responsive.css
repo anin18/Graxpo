@@ -22,7 +22,9 @@
      .lead-section {
     padding: 300px 0 280px !important;
 } 
-   
+   .about {
+    padding:90px 0 !important;
+}
     
     
 }
@@ -32,6 +34,9 @@
    .lead-section {
     padding: 370px 0 !important;
 } 
+.about {
+    padding:110px 0 !important;
+}
    
     
     

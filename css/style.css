@@ -22,12 +22,17 @@ img {
 .hot {
      color:#E84C3D !important;
 }
+.hot-bg {
+    background: #E84C3D !important;
+}
 .dark {
      color:#333B46 !important;
 }
 .light-p {
     color:#81868E !important;
 }
+
+
 /*HEADER*/
 
 header .navbar-brand {
@@ -64,4 +69,14 @@ header li {
 }
 .lead-section .mouse-item p {
      font-family: 'Open Sans';
+}
+
+/*ABOUT SECTION*/
+
+.about article p {
+     font-family: 'Open Sans';
+     font-size: 14px !important;
+}
+.about button:hover {
+    background-color: red !important;
 }
