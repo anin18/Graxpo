@@ -56,7 +56,9 @@
     .actions article p {
         font-size: 14px
     }
-    
+    .statisctic {
+        padding: 150px 0 115px !important;
+    }
 }
 
 

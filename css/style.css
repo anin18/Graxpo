@@ -145,3 +145,16 @@ header li {
  .actions article:hover .line-light-grey:after{
     background-color: white;
 }
+
+/*STATISTICS SECTION*/
+
+.statisctic {
+    font-family: 'Roboto';
+}
+
+.statisctic article a,
+.statisctic article span{
+    text-decoration: none;
+    font-size: 30px;
+    color:#fff;
+}
