@@ -199,7 +199,14 @@ header li {
 .crew h5+p.small {
     font-family: 'Open Sans';
     font-size: 14px;
-    
+}
+
+/*SUBSCRIBE SECTION*/
+.subscribe {
+    padding:60px 0 100px !important;
+}
+.subscribe .form-control::placeholder {
+    color:#fff;
 }
 /*FOOTER*/
 footer p{
