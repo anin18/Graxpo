@@ -10,7 +10,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 h1,h2,h3,h4,h5,h6 {
      font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +21,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .dark {
      color:#333B46 !important;
+}
+.dark-grey {
+    color:#333B46;
 }
 .light-p {
     color:#81868E !important;
@@ -38,7 +40,8 @@ h1,h2,h3,h4,h5,h6 {
     background-color:#898989;
    
 }
-.actions .line:after {
+.actions .line:after,
+.crew .line:after {
     position: absolute;
     top:60%;
     left:50%;
@@ -157,4 +160,48 @@ header li {
     text-decoration: none;
     font-size: 30px;
     color:#fff;
+}
+
+/*CREW SECTION*/
+.crew {
+    font-family: 'Roboto';
+}
+.crew img {
+    display: block;
+    max-width: 100%;
+}
+.crew .crew-item-hover .fa {
+    text-decoration: none;
+    width:29px;
+    height:29px;
+    line-height: 29px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    font-size:1rem;
+    color:#fff;
+}
+
+.crew .crew-item-hover {
+    bottom: 3%;
+    left:3%;
+    right:3%;
+    width:94%;
+}
+.crew .crew-item-hover p {
+    margin-bottom:0.5rem;
+}
+.crew article:hover .crew-item-hover {
+    display: block !important;
+}
+.crew article p {
+    margin-bottom: 0;
+}
+.crew h5+p.small {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    
+}
+/*FOOTER*/
+footer p{
+    margin-bottom: 0;
 }
