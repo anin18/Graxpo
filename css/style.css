@@ -11,16 +11,25 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+a {
+    text-decoration: none !important;
 }
 .hot {
-     color:#E84C3D !important;
+    color:#E84C3D !important;
 }
+.btn-danger,
 .hot-bg {
     background: #E84C3D !important;
 }
+.btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background: #E84C3D !important;
+    opacity:0.7 !important;
+}
 .dark {
-     color:#333B46 !important;
+    color:#333B46 !important;
 }
 .dark-grey {
     color:#333B46;
@@ -38,17 +47,17 @@ h1,h2,h3,h4,h5,h6 {
     height:3px;
     margin:1rem 0;
     background-color:#898989;
-   
+
 }
 .actions .line:after,
-.crew .line:after {
+.crew .line:after,.form-section .line:after 
+   {
     position: absolute;
-    top:60%;
+    top:70%;
     left:50%;
-    transform: translate(-50%);
-    
-    
+    transform: translate(-50%);   
 }
+
 .line-white:after {
     content: '';
     display: block;
@@ -64,7 +73,7 @@ h1,h2,h3,h4,h5,h6 {
     height:3px;
     margin:1rem 0;
     background-color:#EBEBEB;
-    
+
 }
 /*HEADER*/
 
@@ -81,8 +90,8 @@ header .active .nav-link {
 
 }
 header li {
-     border-bottom: 1px solid #333B46 !important;
-     
+    border-bottom: 1px solid #333B46 !important;
+
 }
 
 /*LEAD-SECTION*/
@@ -104,8 +113,8 @@ header li {
 /*ABOUT SECTION*/
 
 .about article p {
-     font-family: 'Open Sans';
-     font-size: 14px !important;
+    font-family: 'Open Sans';
+    font-size: 14px !important;
 }
 .about button:hover {
     background-color: red !important;
@@ -123,7 +132,6 @@ header li {
 }
 
 .actions .actions-icons a {
-    text-decoration: none;
     color:#fff;
     width: 80px;
     height:80px;
@@ -143,9 +151,9 @@ header li {
 .actions article:hover aside p,
 .actions article:hover aside h6 {
     color:white !important;
-  
+
 }
- .actions article:hover .line-light-grey:after{
+.actions article:hover .line-light-grey:after{
     background-color: white;
 }
 
@@ -157,11 +165,12 @@ header li {
 
 .statisctic article a,
 .statisctic article span{
-    text-decoration: none;
     font-size: 30px;
     color:#fff;
 }
-
+.statisctic article span{
+    font-family: 'Roboto';
+}
 /*CREW SECTION*/
 .crew {
     font-family: 'Roboto';
@@ -171,7 +180,6 @@ header li {
     max-width: 100%;
 }
 .crew .crew-item-hover .fa {
-    text-decoration: none;
     width:29px;
     height:29px;
     line-height: 29px;
@@ -207,6 +215,21 @@ header li {
 }
 .subscribe .form-control::placeholder {
     color:#fff;
+}
+
+/*FORM-SECTION*/
+.form-section article p {
+    font-size:12px;
+}
+.form-section article a {
+    font-size: 30px;
+}
+.form-section .form-control {
+    border: 3px solid #ebebeb;
+}
+.form-section p,
+.form-section article p{
+    font-size: 14px;
 }
 /*FOOTER*/
 footer p{
